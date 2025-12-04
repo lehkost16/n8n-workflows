@@ -3,7 +3,7 @@
 A professionally organized collection of **2,053 n8n workflows** with a lightning-fast documentation system that provides instant search, analysis, and browsing capabilities.
 
 > **⚠️ IMPORTANT NOTICE (Aug 14, 2025):** Repository history has been rewritten due to DMCA compliance. If you have a fork or local clone, please see [Issue 85](https://github.com/Zie619/n8n-workflows/issues/85) for instructions on syncing your copy.
-> 
+>
 ## Support My Work
 
 [![Buy Me a Coffee](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black&style=flat)](https://www.buymeacoffee.com/zie619)
@@ -84,7 +84,7 @@ The system includes an automated categorization feature that organizes workflows
 3. **Category Mapping**
    Each recognized service name is matched to its corresponding category using the definitions in `context/def_categories.json`. For example:
    - Twilio → Communication & Messaging
-   - Gmail → Communication & Messaging  
+   - Gmail → Communication & Messaging
    - Airtable → Data Processing & Analysis
    - Salesforce → CRM & Sales
 
@@ -179,7 +179,7 @@ python import_workflows.py
 
 ### Trigger Distribution
 - **Complex**: 831 workflows (40.5%) - Multi-trigger systems
-- **Webhook**: 519 workflows (25.3%) - API-triggered automations  
+- **Webhook**: 519 workflows (25.3%) - API-triggered automations
 - **Manual**: 477 workflows (23.2%) - User-initiated workflows
 - **Scheduled**: 226 workflows (11.0%) - Time-based executions
 
@@ -205,7 +205,7 @@ Our system automatically categorizes workflows into 12 service categories:
 
 #### Available Categories:
 - **messaging**: Telegram, Discord, Slack, WhatsApp, Teams
-- **ai_ml**: OpenAI, Anthropic, Hugging Face 
+- **ai_ml**: OpenAI, Anthropic, Hugging Face
 - **database**: PostgreSQL, MySQL, MongoDB, Redis, Airtable
 - **email**: Gmail, Mailjet, Outlook, SMTP/IMAP
 - **cloud_storage**: Google Drive, Google Docs, Dropbox, OneDrive
@@ -328,7 +328,7 @@ Our system automatically converts technical filenames to user-friendly names:
 ```bash
 # Automatic transformations:
 2051_Telegram_Webhook_Automation_Webhook.json → "Telegram Webhook Automation"
-0250_HTTP_Discord_Import_Scheduled.json → "HTTP Discord Import Scheduled"  
+0250_HTTP_Discord_Import_Scheduled.json → "HTTP Discord Import Scheduled"
 0966_OpenAI_Data_Processing_Manual.json → "OpenAI Data Processing Manual"
 ```
 
@@ -339,7 +339,7 @@ Our system automatically converts technical filenames to user-friendly names:
 
 ### Smart Capitalization Rules
 - **HTTP** → HTTP (not Http)
-- **API** → API (not Api)  
+- **API** → API (not Api)
 - **webhook** → Webhook
 - **automation** → Automation
 - **scheduled** → Scheduled
@@ -421,7 +421,7 @@ Our system automatically converts technical filenames to user-friendly names:
 ### Workflow Sources
 This comprehensive collection includes workflows from:
 - **Official n8n.io** - Documentation and community examples
-- **GitHub repositories** - Open source community contributions  
+- **GitHub repositories** - Open source community contributions
 - **Blog posts & tutorials** - Real-world automation patterns
 - **User submissions** - Tested and verified workflows
 - **Enterprise use cases** - Business process automations
@@ -466,5 +466,3 @@ This comprehensive collection includes workflows from:
 ---
 
 [中文](./README_ZH.md)
-
-
